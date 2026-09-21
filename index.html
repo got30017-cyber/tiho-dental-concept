@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#24332f">
+  <meta name="description" content="Тихо — концепт московской стоматологии. Бережный подход, понятные направления и демонстрационная запись без отправки данных.">
+  <title>Тихо — стоматология, в которой спокойно / Демо</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/onest-light.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/reception.webp" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><symbol id="arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol><symbol id="plus" viewBox="0 0 24 24"><path d="M5 12h14M12 5v14"/></symbol><symbol id="chevron" viewBox="0 0 24 24"><path d="m5 9 7 7 7-7"/></symbol></svg>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/reception.webp" alt="Визуализация интерьера: деревянные панели, светлая стойка и стоматологический кабинет" width="1536" height="1024" fetchpriority="high">
+      <header class="header">
+        <a class="brand" href="#" aria-label="Тихо — на главную">тихо</a>
+        <span class="brand-caption">стоматология / Москва</span>
+        <button class="menu-toggle" type="button" aria-controls="navigation" aria-expanded="false">Меню <span class="menu-lines" aria-hidden="true"></span></button>
+        <nav id="navigation" aria-label="Основная навигация">
+          <a href="#approach">Подход</a><a href="#services">Направления</a><a href="#visit">Первый визит</a><a href="#contacts">Контакты</a>
+          <a class="button button-outline" href="#booking">Оставить заявку</a>
+        </nav>
+      </header>
+      <div class="hero-content">
+        <h1 id="hero-title">Спокойно вам.<br>Бережно к&nbsp;зубам.</h1>
+        <p>Стоматология в&nbsp;Москве, где есть время<br class="desktop-break"> выслушать, объяснить и&nbsp;позаботиться.</p>
+        <a class="button button-light" href="#booking"><span>Записаться на знакомство</span><svg aria-hidden="true"><use href="#arrow"/></svg></a>
+        <span class="reassurance">Демо-запись без отправки данных</span>
+      </div>
+      <div class="hero-bottom"><span>Концепт клиники / не оказывает медицинские услуги</span><span>Пространство, в котором спокойно</span></div>
+    </section>
+
+    <section class="section approach" id="approach" aria-labelledby="approach-title">
+      <div class="section-heading reveal"><h2 id="approach-title">Сначала человек.<br>Потом лечение.</h2><p class="lead">Хорошая стоматология начинается с&nbsp;разговора. Мы за&nbsp;понятный план, внимание к&nbsp;деталям и&nbsp;ваше право не&nbsp;спешить.</p></div>
+      <div class="principles">
+        <article class="reveal"><span class="number">01</span><h3>Объясняем по шагам</h3><p>Простым языком рассказываем, что происходит, и&nbsp;отвечаем на&nbsp;вопросы. Чтобы решения были осознанными.</p></article>
+        <article class="reveal"><span class="number">02</span><h3>Согласуем каждый этап</h3><p>Обсуждаем план, этапы и&nbsp;стоимость до&nbsp;начала лечения. Оставляем время всё обдумать.</p></article>
+        <article class="reveal"><span class="number">03</span><h3>Учитываем ваш ритм</h3><p>Учитываем ваши пожелания и&nbsp;самочувствие. Можно задать вопрос, попросить паузу или отложить решение.</p></article>
+      </div>
+    </section>
+
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="section-heading reveal"><h2 id="services-title">Забота о каждом<br>зубе — и о вас.</h2><p class="lead">От профилактики до&nbsp;восстановления улыбки. Начнём с&nbsp;того, что важно вам.</p></div>
+      <div class="service-list">
+        <details class="service" name="services" open><summary><span class="number">01</span><h3>Профилактика и гигиена</h3><span class="service-description">Внимание к&nbsp;зубам и&nbsp;дёснам<br>в&nbsp;повседневной заботе</span><span class="disclosure"><svg aria-hidden="true"><use href="#plus"/></svg></span></summary><div class="service-body"><p>Профессиональная гигиена и&nbsp;обсуждение домашнего ухода. На&nbsp;консультации можно разобраться с&nbsp;выбором щётки и&nbsp;привычками, которые подходят именно вам.</p><button class="text-link" type="button" data-service="Профилактика и гигиена">Выбрать направление <svg aria-hidden="true"><use href="#arrow"/></svg></button></div></details>
+        <details class="service" name="services"><summary><span class="number">02</span><h3>Лечение зубов</h3><span class="service-description">Сохранение зубов<br>и&nbsp;восстановление их функции</span><span class="disclosure"><svg aria-hidden="true"><use href="#plus"/></svg></span></summary><div class="service-body"><p>Обсуждение состояния зубов, необходимой диагностики и&nbsp;вариантов лечения. Врач объясняет, какие этапы нужны и&nbsp;зачем, прежде чем приступить к&nbsp;работе.</p><button class="text-link" type="button" data-service="Лечение зубов">Выбрать направление <svg aria-hidden="true"><use href="#arrow"/></svg></button></div></details>
+        <details class="service" name="services"><summary><span class="number">03</span><h3>Восстановление зубов</h3><span class="service-description">Функциональность и&nbsp;эстетика<br>с&nbsp;учётом вашей ситуации</span><span class="disclosure"><svg aria-hidden="true"><use href="#plus"/></svg></span></summary><div class="service-body"><p>Консультация по&nbsp;реставрациям, коронкам и&nbsp;восстановлению отсутствующих зубов. Выбор подхода зависит от&nbsp;осмотра, диагностики и&nbsp;ваших пожеланий.</p><button class="text-link" type="button" data-service="Восстановление зубов">Выбрать направление <svg aria-hidden="true"><use href="#arrow"/></svg></button></div></details>
+        <details class="service" name="services"><summary><span class="number">04</span><h3>Ортодонтия</h3><span class="service-description">Положение зубов<br>и&nbsp;гармония улыбки</span><span class="disclosure"><svg aria-hidden="true"><use href="#plus"/></svg></span></summary><div class="service-body"><p>Обсуждение прикуса и&nbsp;положения зубов, брекетов и&nbsp;элайнеров. На&nbsp;первом визите разбирают возможные варианты, ограничения и&nbsp;порядок дальнейшей диагностики.</p><button class="text-link" type="button" data-service="Ортодонтия">Выбрать направление <svg aria-hidden="true"><use href="#arrow"/></svg></button></div></details>
+        <details class="service" name="services"><summary><span class="number">05</span><h3>Эстетика улыбки</h3><span class="service-description">Естественный результат<br>с&nbsp;вниманием к&nbsp;деталям</span><span class="disclosure"><svg aria-hidden="true"><use href="#plus"/></svg></span></summary><div class="service-body"><p>Разговор о&nbsp;цвете, форме и&nbsp;пропорциях зубов. До&nbsp;выбора процедуры важно обсудить ожидания и&nbsp;понять, какие решения возможны в&nbsp;конкретной ситуации.</p><button class="text-link" type="button" data-service="Эстетика улыбки">Выбрать направление <svg aria-hidden="true"><use href="#arrow"/></svg></button></div></details>
+      </div>
+      <p class="section-note">Направления показаны для демонстрации. План и&nbsp;стоимость определяются после консультации.</p>
+    </section>
+
+    <section class="section tooth-section" id="tooth" aria-labelledby="tooth-title">
+      <div class="tooth-copy"><h2 id="tooth-title">Знакомый снаружи.<br>Интересный внутри.</h2><p class="lead">Один зуб — несколько слоёв.<br>Посмотрите, как он устроен.</p><div class="tooth-explanation" aria-live="polite"><span class="number" id="tooth-number">01 / ЭМАЛЬ</span><h3 id="tooth-layer">Защитная оболочка</h3><p id="tooth-text">Эмаль покрывает коронку и защищает расположенный под ней дентин. В ней нет живых клеток, поэтому повреждённая эмаль не восстанавливается сама.</p></div><p class="section-note">Упрощённая иллюстрация строения зуба.<br>Не используется для диагностики.</p></div>
+      <div class="tooth-interactive"><button class="tooth-stage" id="tooth-toggle" type="button" data-stage="0" aria-label="Снять эмаль"><img class="tooth-inside" src="assets/tooth-cutaway.webp" alt="" width="1200" height="1200" loading="lazy"><img class="tooth-dentin" src="assets/tooth-enamel-dentin.webp" alt="" width="1200" height="1200" loading="lazy"><img class="tooth-shell" src="assets/tooth-whole.webp" alt="" width="1200" height="1200" loading="lazy"><span class="tooth-action"><svg aria-hidden="true"><use href="#plus"/></svg><span id="tooth-action-text">Снять эмаль</span></span></button></div>
+    </section>
+
+    <section class="visit" id="visit" aria-labelledby="visit-title">
+      <figure class="visit-photo"><img src="assets/treatment.webp" alt="Визуализация спокойного кабинета с креслом и естественным светом" width="1024" height="1280" loading="lazy"><figcaption>Визуализация пространства</figcaption></figure>
+      <div class="visit-content reveal"><h2 id="visit-title">Первый визит.<br>Всё понятно.</h2><ol class="visit-steps"><li><span class="number">01</span><div><h3>Знакомимся и слушаем</h3><p>Вы рассказываете, что вас беспокоит и&nbsp;что хотелось&nbsp;бы изменить. Мы уточняем детали и&nbsp;ожидания.</p></div></li><li><span class="number">02</span><div><h3>Разбираемся вместе</h3><p>Обсуждаем осмотр и&nbsp;необходимую диагностику. Показываем и&nbsp;объясняем простыми словами.</p></div></li><li><span class="number">03</span><div><h3>Планируем следующий шаг</h3><p>Рассматриваем варианты, этапы и&nbsp;стоимость. Вы принимаете решение без&nbsp;спешки и&nbsp;давления.</p></div></li></ol></div>
+    </section>
+
+    <section class="section faq" aria-labelledby="faq-title"><div class="reveal"><h2 id="faq-title">Можно<br>спросить</h2><p>Несколько ответов, чтобы первый шаг<br class="desktop-break"> был немного спокойнее.</p></div><div class="faq-list"><details><summary>Я волнуюсь перед приёмом. Как быть?<svg aria-hidden="true"><use href="#chevron"/></svg></summary><p>В&nbsp;концепции «Тихо» можно заранее рассказать о&nbsp;своих переживаниях, обсудить ход визита и&nbsp;договориться о&nbsp;паузах. Первый разговор ни&nbsp;к&nbsp;чему не&nbsp;обязывает.</p></details><details><summary>Можно сначала только проконсультироваться?<svg aria-hidden="true"><use href="#chevron"/></svg></summary><p>Да, первый визит задуман как знакомство: вопросы, обсуждение ситуации и&nbsp;возможных шагов. Решение о&nbsp;лечении принимается отдельно.</p></details><details><summary>Это настоящая клиника?<svg aria-hidden="true"><use href="#chevron"/></svg></summary><p>Нет. «Тихо» — вымышленная клиника и&nbsp;демонстрационный проект для портфолио. Изображения сгенерированы. Сайт не&nbsp;оказывает медицинские услуги и&nbsp;не&nbsp;принимает реальные заявки.</p></details></div></section>
+
+    <section class="booking section" id="booking" aria-labelledby="booking-title"><div class="booking-layout"><div class="booking-intro"><h2 id="booking-title">Начнём<br>со знакомства.</h2><p class="lead">Выберите направление — покажем,<br class="desktop-break"> как работает заявка.</p><p class="demo-notice" id="demo-notice">Демонстрационная форма. Используйте только вымышленные данные. Ничего не&nbsp;отправляется и&nbsp;не&nbsp;сохраняется.</p><button class="text-link" type="button" id="fill-demo">Заполнить тестовым примером <svg aria-hidden="true"><use href="#arrow"/></svg></button></div>
+      <div class="form-container"><form id="booking-form" aria-describedby="demo-notice" autocomplete="off" novalidate>
+        <div class="form-fields"><div class="field"><label for="demo-name">Имя (вымышленное)</label><input id="demo-name" name="demo-name" type="text" placeholder="Например, Анна" maxlength="60" required autocomplete="off" aria-describedby="name-error"><span class="field-error" id="name-error"></span></div><div class="field"><label for="demo-phone">Телефон (тестовый)</label><input id="demo-phone" name="demo-phone" type="tel" inputmode="tel" placeholder="+7 (000) 000-00-00" maxlength="24" required autocomplete="off" aria-describedby="phone-error"><span class="field-error" id="phone-error"></span></div></div>
+        <div class="field select-field"><label for="direction" id="direction-label">Направление</label><select id="direction" name="direction" required aria-describedby="direction-error"><option value="">Выберите направление</option><option>Профилактика и гигиена</option><option>Лечение зубов</option><option>Восстановление зубов</option><option>Ортодонтия</option><option>Эстетика улыбки</option><option>Пока не знаю — нужна консультация</option></select><svg aria-hidden="true"><use href="#chevron"/></svg><span class="field-error" id="direction-error"></span><div class="direction-picker" hidden><button id="direction-trigger" class="direction-trigger" type="button" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="direction-options" aria-labelledby="direction-label direction-value" aria-describedby="direction-error"><span id="direction-value">Выберите направление</span><svg aria-hidden="true"><use href="#chevron"/></svg></button><div id="direction-options" class="direction-options" role="listbox" aria-label="Направление" hidden></div></div></div>
+        <div class="field doctor-field" hidden><label for="doctor" id="doctor-label">Врач (вымышленный)</label><select id="doctor" name="doctor" required aria-describedby="doctor-error"><option value="">Выберите врача</option></select><span class="field-error" id="doctor-error"></span><div class="doctor-picker" hidden><button id="doctor-trigger" class="direction-trigger" type="button" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="doctor-options" aria-labelledby="doctor-label doctor-value" aria-describedby="doctor-error"><span id="doctor-value">Выберите врача</span><svg aria-hidden="true"><use href="#chevron"/></svg></button><div id="doctor-options" class="direction-options" role="listbox" aria-label="Врач" hidden></div></div></div>
+        <div class="schedule" id="schedule" role="group" hidden aria-labelledby="schedule-title" aria-describedby="schedule-error"><div class="schedule-heading"><h3 id="schedule-title">Дата и время</h3><span>Демонстрационное расписание</span></div><button class="date-trigger" id="date-trigger" type="button" aria-expanded="false" aria-controls="calendar-panel"><span id="date-trigger-text">Выбрать дату</span><svg aria-hidden="true"><use href="#chevron"/></svg></button><div class="calendar" id="calendar-panel" hidden><div class="calendar-heading"><button type="button" id="month-prev" aria-label="Предыдущий месяц"><svg aria-hidden="true"><use href="#chevron"/></svg></button><h4 id="calendar-month" aria-live="polite"></h4><button type="button" id="month-next" aria-label="Следующий месяц"><svg aria-hidden="true"><use href="#chevron"/></svg></button></div><div class="weekdays" aria-hidden="true"><span>Пн</span><span>Вт</span><span>Ср</span><span>Чт</span><span>Пт</span><span>Сб</span><span>Вс</span></div><div class="calendar-days" id="calendar-days"></div><p class="calendar-legend">Зачёркнутые даты заняты. Прошедшие дни недоступны.</p></div><div class="schedule-times" id="schedule-times" hidden><div class="time-heading" id="time-heading" aria-live="polite">Выберите свободную дату</div><div class="time-slots" id="time-slots" role="group" aria-labelledby="time-heading"></div><p class="schedule-selection" id="schedule-selection" aria-live="polite"></p></div><p class="field-error" id="schedule-error" role="alert"></p></div>
+        <div class="consent-field"><label class="checkbox-label"><input id="demo-consent" type="checkbox" required aria-describedby="consent-error"><span>Я использую вымышленные данные</span></label><span class="field-error" id="consent-error"></span></div>
+        <button class="button button-light submit-button" type="submit" disabled><span>Отправить демо-заявку</span><svg aria-hidden="true"><use href="#arrow"/></svg></button>
+        <noscript><p>Для демо-записи включите JavaScript. Отправка данных отключена.</p></noscript><p class="form-note">Это демонстрация. Запись на приём не создаётся.</p>
+      </form><div class="success" id="success" hidden tabindex="-1" role="status"><span class="number">Демонстрация завершена</span><h3>Всё получилось.</h3><p id="success-description"></p><p>В настоящем сервисе здесь появилось бы подтверждение заявки. В&nbsp;этой демонстрации ничего не&nbsp;отправлено, а&nbsp;поля уже очищены.</p><button class="button button-outline" id="reset-demo" type="button">Попробовать ещё раз</button></div></div></div>
+
+      <footer id="contacts"><div class="footer-main"><a class="brand" href="#" aria-label="Тихо — вернуться наверх">тихо</a><div class="contact-links"><button class="contact-link" data-contact="Telegram" type="button"><span>Telegram <svg aria-hidden="true"><use href="#arrow"/></svg></span><small>Демо-контакт</small></button><button class="contact-link" data-contact="WhatsApp" type="button"><span>WhatsApp <svg aria-hidden="true"><use href="#arrow"/></svg></span><small>Демо-контакт</small></button><button class="contact-link" data-contact="Почта" type="button"><span>Почта <svg aria-hidden="true"><use href="#arrow"/></svg></span><small>hello@tiho.example</small></button></div><p class="footer-location">Вымышленная клиника<br>Москва / Портфолио-проект</p></div><div class="footer-bottom"><span>© Тихо, 2026 / Концепт стоматологии</span><span>Все изображения — визуализации. Реальных контактов нет.</span></div></footer>
+    </section>
+  </main>
+  <dialog id="contact-dialog" aria-labelledby="contact-title"><button class="dialog-close" type="button" aria-label="Закрыть окно"><svg aria-hidden="true"><use href="#plus"/></svg></button><span class="number">Демо-контакт</span><h2 id="contact-title">Только знакомство.</h2><p id="contact-description"></p><button class="button button-solid" id="dialog-ok" type="button">Вернуться на сайт</button></dialog>
+</body>
+</html>
+
+
+
